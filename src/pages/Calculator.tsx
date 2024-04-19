@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
-import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar, IonButton, IonGrid, IonRow, IonCol } from '@ionic/react';
+import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar, IonButton, IonGrid, IonRow, IonCol, IonButtons, IonBackButton } from '@ionic/react';
 import ExploreContainer from '../components/ExploreContainer';
-import './Tab3.css';
+import './Calculator.css';
 
-const Tab3: React.FC = () => {
+const Calculator: React.FC = () => {
   const [display, setDisplay] = useState("0");
   const [currentValue, setCurrentValue] = useState("");
   const [operator, setOperator] = useState("");
@@ -71,6 +71,9 @@ const Tab3: React.FC = () => {
           <IonTitle>Calculator</IonTitle>
         </IonToolbar>
       </IonHeader>
+      <IonButtons slot="start">
+        <IonBackButton defaultHref="/" />
+      </IonButtons>
       <IonContent fullscreen>
         <IonHeader collapse="condense">
           <IonToolbar>
@@ -112,4 +115,4 @@ const Tab3: React.FC = () => {
   );
 };
 
-export default Tab3;
+export default Calculator;
