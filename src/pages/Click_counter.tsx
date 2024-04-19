@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
-import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar, IonButton } from '@ionic/react';
+import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar, IonButton, IonButtons, IonBackButton } from '@ionic/react';
 import ExploreContainer from '../components/ExploreContainer';
-import './Tab2.css';
+import './Click_counter.css';
 
-const Tab2: React.FC = () => {
+const Click_counter: React.FC = () => {
   const [clickCount, setClickCount] = useState(0);
 
   const incrementClickCount = () => {
@@ -18,13 +18,16 @@ const Tab2: React.FC = () => {
     <IonPage>
       <IonHeader>
         <IonToolbar>
-          <IonTitle>Tab 2</IonTitle>
+          <IonTitle>Click counter</IonTitle>
         </IonToolbar>
       </IonHeader>
+      <IonButtons slot="start">
+        <IonBackButton defaultHref="/" />
+      </IonButtons>
       <IonContent fullscreen>
         <IonHeader collapse="condense">
           <IonToolbar>
-            <IonTitle size="large">Tab 2</IonTitle>
+            <IonTitle size="large">Click counter</IonTitle>
           </IonToolbar>
         </IonHeader>
         <ExploreContainer name="Tab 2 page" />
@@ -38,4 +41,4 @@ const Tab2: React.FC = () => {
   );
 };
 
-export default Tab2;
+export default Click_counter;
