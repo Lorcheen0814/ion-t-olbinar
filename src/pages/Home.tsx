@@ -58,8 +58,14 @@ const cardData = [
     icon: chatbubble,
     subtitle: 'Applet #4',
     link: '/quotesgenerator'
-  }
+  },
   
+  {
+    title: 'Notes',
+    icon: chatbubble,
+    subtitle: 'Applet #5',
+    link: '/Notes'
+  }
 ];
 
   const Home: React.FC = () => {
