@@ -39,32 +39,32 @@ const cardData = [
     title: 'Click Counter',
     icon: speedometerOutline,
     subtitle: 'Applet #1',
-    link: '/clickcounter'
+    link: 'ion-t-olbinar/clickcounter'
   },
   {
     title: 'Calculator',
     icon: calculator,
     subtitle: 'Applet #2',
-    link: '/calculator'
+    link: 'ion-t-olbinar/calculator'
   },
   {
     title: 'To Do List',
     icon: pencil,
     subtitle: 'Applet #3',
-    link: '/todolist'
+    link: 'ion-t-olbinar/todolist'
   },
   {
     title: 'Quotes Generator',
     icon: chatbubble,
     subtitle: 'Applet #4',
-    link: '/quotesgenerator'
+    link: 'ion-t-olbinar/quotesgenerator'
   },
   
   {
     title: 'Notes',
     icon: chatbubble,
     subtitle: 'Applet #5',
-    link: '/Notes'
+    link: 'ion-t-olbinar/Notes'
   }
 ];
 
