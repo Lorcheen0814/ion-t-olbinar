@@ -33,7 +33,7 @@ const Click_counter: React.FC = () => {
         </IonHeader>
         
         <div>
-        <img alt="Silhouette of mountains" src="../src/assets/img/avatar.jpg" />
+       
           <p>Click Count: {clickCount}</p>
           <IonButton onClick={incrementClickCount} expand="block">Increment Click Count</IonButton>
           <IonButton onClick={resetClickCount} expand="block" color="danger">Reset Click Count</IonButton>

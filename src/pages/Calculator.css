@@ -18,12 +18,3 @@
     width: 100%;
     height: 60px;
   }
-  .calculator {
-    background-image: url('../src/assets/img/avatar.jpg');
-    background-size:inherit;
-    background-position: center;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
