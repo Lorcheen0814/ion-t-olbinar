@@ -21,6 +21,7 @@ const Click_counter: React.FC = () => {
           <IonTitle>Click counter</IonTitle>
         </IonToolbar>
       </IonHeader>
+      
       <IonButtons slot="start">
         <IonBackButton defaultHref="/" />
       </IonButtons>
@@ -30,8 +31,9 @@ const Click_counter: React.FC = () => {
             <IonTitle size="large">Click counter</IonTitle>
           </IonToolbar>
         </IonHeader>
-        <ExploreContainer name="Tab 2 page" />
+        
         <div>
+       
           <p>Click Count: {clickCount}</p>
           <IonButton onClick={incrementClickCount} expand="block">Increment Click Count</IonButton>
           <IonButton onClick={resetClickCount} expand="block" color="danger">Reset Click Count</IonButton>

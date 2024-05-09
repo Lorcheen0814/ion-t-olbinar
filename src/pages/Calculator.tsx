@@ -80,7 +80,8 @@ const Calculator: React.FC = () => {
             <IonTitle size="large">Calculator</IonTitle>
           </IonToolbar>
         </IonHeader>
-        <ExploreContainer name="Calculator" />
+       
+
         <div className="calculator">
           <div className="display">{display}</div>
           <IonGrid>
